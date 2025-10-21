@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Piklopedia</string>
+    <string name="titulo_toolbar">Piklopedia</string>
 </resources>
