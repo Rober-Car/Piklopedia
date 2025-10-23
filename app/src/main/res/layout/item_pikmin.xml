@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--android:foreground="?attr/selectableItemBackground"Este atributo agrega un efecto visual al tocar la tarjeta
+ ?attr/selectableItemBackground usa el estilo de selección definido por el sistema
+ ?attr/selectableItemBackgroundBorderless, el efecto se extiende más allá del contenido.
+
+ -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardUseCompatPadding="true"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    >
+
+    <!-- Contenido de la tarjeta -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imagen_pikmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+        
+        <TextView
+            android:id="@+id/nombre_pikmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:paddingTop="8dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
