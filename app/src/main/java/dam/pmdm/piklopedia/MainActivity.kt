@@ -1,6 +1,7 @@
 package dam.pmdm.piklopedia
 
 import android.os.Bundle
+import android.widget.Toast
 
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -35,17 +36,17 @@ class MainActivity : AppCompatActivity() {
         /**
          * Busca el RecyclerView por su id (mi_recycler).
          * */
-        val reciclador: RecyclerView=findViewById(R.id.mi_recycler)
+        val reciclador: RecyclerView = findViewById(R.id.mi_recycler)
 
         /**
          * Crea una instancia de GridLayoutManager,
          * organiza los ítems del RecyclerView en 3 columnas.
          */
-        val grid= GridLayoutManager(this,3)
+        val grid = GridLayoutManager(this, 3)
 
 
         /** Asigna el layautManager al recyclerView*/
-        reciclador.layoutManager=grid
+        reciclador.layoutManager = grid
 
         /**
          * Lista de datos
@@ -63,6 +64,13 @@ class MainActivity : AppCompatActivity() {
             Pikmin(9, "Pikminidae luminis", R.drawable.glow_pikmin)
         )
 
+        // 🔹 Conectar Adapter con RecyclerView
+        val adaptador = PikminAdapter(pikminLista) { pikminSeleccionado ->
+            Toast.makeText(this, "Has pulsado a ${pikminSeleccionado.name}", Toast.LENGTH_SHORT)
+                .show()
 
+        }
+
+        reciclador.adapter = adaptador
     }
 }
