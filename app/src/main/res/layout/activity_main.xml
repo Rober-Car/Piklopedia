@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
 
         />
-//
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mi_recycler"
         android:layout_width="0dp"
