@@ -1,4 +1,13 @@
-package dam.pmdm.piklopedia;
+package dam.pmdm.piklopedia
 
-public class PikminDetalleActivity {
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+class PikminDetalleActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
 }

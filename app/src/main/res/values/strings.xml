@@ -3,4 +3,13 @@
     <string name="titulo_toolbar">Piklopedia</string>
     <string name="titulo_detalle">Detalle Pikmin</string>
     <string name="pikmin_descripcion">descricion.......</string>
+    <string name="pikmin_rojo">Pikmin rojo</string>
+    <string name="pikmin_amarillo">Pikmin amarillo</string>
+    <string name="pikmin_azul">Pikmin azul</string>
+    <string name="pikmin_blanco">Pikmin blanco</string>
+    <string name="pikmin_morado">Pikmin morado</string>
+    <string name="pikmin_petreo">Pikmin pétreo</string>
+    <string name="pikmin_alado">Pikmin alado</string>
+    <string name="pikmin_gelido">Pikmin gélido</string>
+    <string name="pikmin_luminoso">Pikmin luminoso</string>
 </resources>
