@@ -59,7 +59,8 @@
                 android:layout_marginTop="8dp"
                 android:lineSpacingExtra="4dp"
                 android:textAppearance="?attr/textAppearanceBody1"
-                tools:text="Este Pikmin es resistente al fuego y tiene una gran capacidad ofensiva. Puede soportar temperaturas altas y atacar enemigos con mayor eficacia." />
+                android:gravity="center"
+                />
 
         </LinearLayout>
     </ScrollView>

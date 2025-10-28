@@ -26,6 +26,7 @@ class PikminDetalleActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+
         // vistas del layout
 
         val imagenView = findViewById<ImageView>(R.id.imagen_detalle)
@@ -35,20 +36,14 @@ class PikminDetalleActivity : AppCompatActivity() {
         //3) Leer los extras del Intent
         val nombre = intent.getStringExtra(EXTRA_NAME) ?: "Pikmin"
         val imageRes = intent.getIntExtra(EXTRA_IMAGE, 0)
-        val descripcion = intent.getStringExtra(EXTRA_DESC) ?: "Descripción no disponible."
+        val descRes = intent.getIntExtra(EXTRA_DESC, 0)
+        val descripcionText: String = if (descRes != 0) getString(descRes)
+        else intent.getStringExtra(EXTRA_DESC) ?: "Descripción no disponible."
 
-        // 4) Asignar a las vistas (seguridad: comprueba imageRes)
+        // Asignar
         nombreView.text = nombre
-        descView.text = descripcion
-
-        if (imageRes != 0) {
-            imagenView.setImageResource(imageRes)
-        } else {
-            // opcional: placeholder si no se recibió imagen
-            imagenView.setImageResource(R.drawable.ic_launcher_foreground)
-        }
-
-        // Accesibilidad: contentDescription con el nombre
+        descView.text = descripcionText
+        if (imageRes != 0) imagenView.setImageResource(imageRes) else imagenView.setImageResource(R.drawable.ic_launcher_foreground)
         imagenView.contentDescription = nombre
     }
 

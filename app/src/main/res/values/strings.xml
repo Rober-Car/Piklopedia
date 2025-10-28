@@ -3,13 +3,15 @@
     <string name="titulo_toolbar">Piklopedia</string>
     <string name="titulo_detalle">Detalle Pikmin</string>
     <string name="pikmin_descripcion">descricion.......</string>
-    <string name="pikmin_rojo">Pikmin rojo</string>
-    <string name="pikmin_amarillo">Pikmin amarillo</string>
-    <string name="pikmin_azul">Pikmin azul</string>
-    <string name="pikmin_blanco">Pikmin blanco</string>
-    <string name="pikmin_morado">Pikmin morado</string>
-    <string name="pikmin_petreo">Pikmin pétreo</string>
-    <string name="pikmin_alado">Pikmin alado</string>
-    <string name="pikmin_gelido">Pikmin gélido</string>
-    <string name="pikmin_luminoso">Pikmin luminoso</string>
+
+    <string name="pikmin_rojo">Resistente al fuego, gran fuerza ofensiva y alta adaptación a ambientes calurosos; útil en combates y para soportar altas temperaturas.</string>
+    <string name="pikmin_amarillo">Conduce electricidad y resiste exposiciones eléctricas; cavadores rápidos y capaces de alcanzar gran altura al ser lanzados.</string>
+    <string name="pikmin_azul">Posee branquias que permiten respirar y actuar bajo el agua; excelente nadador y eficaz en entornos acuáticos.</string>
+    <string name="pikmin_blanco">Pequeño y muy rápido, con veneno natural y resistencia a toxinas; adecuado para tareas de velocidad y como creador de daño por veneno.</string>
+    <string name="pikmin_morado">Muy pesado y extremadamente fuerte, con alta capacidad de carga; lento pero capaz de causar gran daño físico y mover grandes pesos.</string>
+    <string name="pikmin_petreo">Cuerpo rocoso y altamente resistente; ideal para tareas de ruptura de obstáculos y para absorber daño físico.</string>
+    <string name="pikmin_alado">Capacidad de vuelo y gran agilidad en el aire; movilidad superior aunque con ataques de menor potencia.</string>
+    <string name="pikmin_gelido">Genera y mantiene hielo, inmunidad al frío y capacidad para congelar zonas; vulnerable al fuego.</string>
+    <string name="pikmin_luminoso">Activo en ambientes nocturnos y subterráneos, con habilidades únicas de movimiento y agrupamiento que permiten formas de luz y teletransportación colectiva.</string>
+
 </resources>

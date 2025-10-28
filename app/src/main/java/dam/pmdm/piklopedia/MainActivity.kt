@@ -56,20 +56,27 @@ class MainActivity : AppCompatActivity() {
          * */
 
         val pikminLista = listOf(
-            Pikmin(1, "Pikminidae rubrus", R.drawable.red_pikmin),
-            Pikmin(2, "Pikminidae auribus", R.drawable.yellow_pikmin),
-            Pikmin(3, "Pikminidae caerula", R.drawable.blue_pikmin),
-            Pikmin(4, "Pikminidae venalbius", R.drawable.white_pikmin),
-            Pikmin(5, "Pikminidae violaceus", R.drawable.purple_pikmin),
-            Pikmin(6, "Pikminidae granitus", R.drawable.rock_pikmin),
-            Pikmin(7, "Pikminidae volucris", R.drawable.winged_pikmin),
-            Pikmin(8, "Pikminidae glacialis", R.drawable.ice_pikmin),
-            Pikmin(9, "Pikminidae luminis", R.drawable.glow_pikmin)
+            Pikmin(1, "Pikminidae rubrus", R.drawable.red_pikmin, R.string.pikmin_rojo),
+            Pikmin(2, "Pikminidae auribus", R.drawable.yellow_pikmin,  R.string.pikmin_amarillo),
+            Pikmin(3, "Pikminidae caerula", R.drawable.blue_pikmin, R.string.pikmin_azul),
+            Pikmin(4, "Pikminidae venalbius", R.drawable.white_pikmin, R.string.pikmin_blanco),
+            Pikmin(5, "Pikminidae violaceus", R.drawable.purple_pikmin, R.string.pikmin_morado),
+            Pikmin(6, "Pikminidae granitus", R.drawable.rock_pikmin, R.string.pikmin_petreo),
+            Pikmin(7, "Pikminidae volucris", R.drawable.winged_pikmin, R.string.pikmin_alado),
+            Pikmin(8, "Pikminidae glacialis", R.drawable.ice_pikmin, R.string.pikmin_gelido),
+            Pikmin(9, "Pikminidae luminis", R.drawable.glow_pikmin, R.string.pikmin_luminoso)
         )
 
         // 🔹 Conectar Adapter con RecyclerView
         val adaptador = PikminAdapter(pikminLista) { pikminSeleccionado ->
             val intent = Intent(this,PikminDetalleActivity::class.java)
+
+            // Pasamos los datos: nombre (String), imagen (Int), descripcion (Int - resource id)
+
+            intent.putExtra(PikminDetalleActivity.EXTRA_NAME, pikminSeleccionado.name)
+            intent.putExtra(PikminDetalleActivity.EXTRA_IMAGE, pikminSeleccionado.imagenRes)
+            intent.putExtra(PikminDetalleActivity.EXTRA_DESC, pikminSeleccionado.descripcionRes)
+
             startActivity(intent)
 
 

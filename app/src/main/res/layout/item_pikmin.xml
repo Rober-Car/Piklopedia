@@ -2,8 +2,7 @@
  <!--android:foreground="?attr/selectableItemBackground"Este atributo agrega un efecto visual al tocar la tarjeta
  ?attr/selectableItemBackground usa el estilo de selección definido por el sistema
  ?attr/selectableItemBackgroundBorderless, el efecto se extiende más allá del contenido.
-
- -->
+-->
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
@@ -14,7 +13,6 @@
     android:clickable="true"
     android:foreground="?attr/selectableItemBackground"
     >
-
     <!-- Contenido de la tarjeta -->
     <LinearLayout
         android:layout_width="match_parent"
