@@ -76,9 +76,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra(PikminDetalleActivity.EXTRA_NAME, pikminSeleccionado.name)
             intent.putExtra(PikminDetalleActivity.EXTRA_IMAGE, pikminSeleccionado.imagenRes)
             intent.putExtra(PikminDetalleActivity.EXTRA_DESC, pikminSeleccionado.descripcionRes)
-
             startActivity(intent)
-
 
         }
 
@@ -92,7 +90,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId){
-            R.id.opcion_acerca ->
+            R.id.opcion_acerca -> {
+
+
+            }
 
 
         }
