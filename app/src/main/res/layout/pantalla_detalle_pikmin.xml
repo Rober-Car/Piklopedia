@@ -35,22 +35,20 @@
 
             <ImageView
                 android:id="@+id/imagen_detalle"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
                 tools:srcCompat="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/nombre_pikmin_detalle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="?attr/textAppearanceHeadline6"
-                android:textStyle="bold"
-                android:textSize="20sp"
                 android:gravity="center"
-                android:layout_marginTop="12dp"
-                tools:text="Pikmin Rojo" />
+                android:layout_marginTop="20dp"
+                style="@style/NombrePantallaDetalles"
+                 />
 
             <TextView
                 android:id="@+id/descripcion_detalle"
@@ -60,6 +58,7 @@
                 android:lineSpacingExtra="4dp"
                 android:textAppearance="?attr/textAppearanceBody1"
                 android:gravity="center"
+                style="@style/DescripcionPantallaDetalles"
                 />
 
         </LinearLayout>

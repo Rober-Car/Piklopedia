@@ -1,7 +1,22 @@
 <resources>
     <style name="Theme.TemaPikmin" parent="Theme.Material3.DayNight.NoActionBar">
-
         <item name="android:windowBackground">@color/crema_claro</item>
+    </style>
 
+    <style name="TextoFondoRedondeado">
+        <item name="android:background">@drawable/fondo_texto_pikmin</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NombrePantallaDetalles">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="DescripcionPantallaDetalles">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
 </resources>
