@@ -9,7 +9,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="NombrePantallaDetalles">
+    <style name="Titulos">
         <item name="android:textSize">26sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
@@ -19,5 +19,11 @@
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
         <item name="android:lineSpacingExtra">6sp</item>
+    </style>
+    
+    <style name="TextosConfiguracion">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">20dp</item>
     </style>
 </resources>

@@ -1,11 +1,26 @@
 <resources>
     <string name="app_name">Piklopedia</string>
+
     <string name="titulo_toolbar">Piklopedia</string>
+
     <string name="titulo_detalle">Detalle Pikmin</string>
     <string name="pikmin_descripcion">descricion.......</string>
+
     <string name="opcion_acerca">Acerca de...</string>
-    <string name="opcion_ajustes">Ajustes</string>
     <string name="texto_dialogo">Aplicación desarrollada por %1$s. Versión 1.0.</string>
+
+    <string name="opcion_ajustes">Ajustes</string>
+    <string name="spiner_texto_ajustes">Configuración</string>
+    <string name="spiner_texto_idiomas">Idiomas</string>
+    <string name="spiner_texto_tema">Tema</string>
+    <string-array name="opciones_idiomas">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+    <string-array name="opciones_temas">
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
 
     <string name="pikmin_rojo">Resistente al fuego, gran fuerza ofensiva y alta adaptación a ambientes calurosos; útil en combates y para soportar altas temperaturas.</string>
     <string name="pikmin_amarillo">Conduce electricidad y resiste exposiciones eléctricas; cavadores rápidos y capaces de alcanzar gran altura al ser lanzados.</string>

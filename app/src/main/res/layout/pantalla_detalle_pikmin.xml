@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginTop="20dp"
-                style="@style/NombrePantallaDetalles"
+                style="@style/Titulos"
                  />
 
             <TextView
