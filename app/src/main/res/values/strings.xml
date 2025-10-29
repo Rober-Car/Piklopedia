@@ -3,6 +3,8 @@
     <string name="titulo_toolbar">Piklopedia</string>
     <string name="titulo_detalle">Detalle Pikmin</string>
     <string name="pikmin_descripcion">descricion.......</string>
+    <string name="opcion_acerca">Acerca de...</string>
+    <string name="opcion_ajustes">Ajsutes</string>
 
     <string name="pikmin_rojo">Resistente al fuego, gran fuerza ofensiva y alta adaptación a ambientes calurosos; útil en combates y para soportar altas temperaturas.</string>
     <string name="pikmin_amarillo">Conduce electricidad y resiste exposiciones eléctricas; cavadores rápidos y capaces de alcanzar gran altura al ser lanzados.</string>

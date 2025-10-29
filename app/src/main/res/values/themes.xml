@@ -18,5 +18,6 @@
     <style name="DescripcionPantallaDetalles">
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:lineSpacingExtra">6sp</item>
     </style>
 </resources>
