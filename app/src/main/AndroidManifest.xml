@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TemaPikmin">
         <activity
+            android:name=".AjustesActivity"
+            android:exported="false" />
+        <activity
             android:name=".PikminDetalleActivity"
             android:exported="false" />
         <activity

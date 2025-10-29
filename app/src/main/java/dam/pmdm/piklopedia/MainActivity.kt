@@ -97,8 +97,13 @@ class MainActivity : AppCompatActivity() {
                 true
             }
 
-            R.id.opcion_ajustes ->
+            R.id.opcion_ajustes -> {
+                val intent = Intent(this, AjustesActivity::class.java)
+                startActivity(intent)
+                true
+            }
 
-        }
+            else -> super.onOptionsItemSelected(item)
     }
+}
 }
