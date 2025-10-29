@@ -56,15 +56,15 @@ class MainActivity : AppCompatActivity() {
          * */
 
         val pikminLista = listOf(
-            Pikmin(1, "Pikminidae rubrus", R.drawable.red_pikmin, R.string.pikmin_rojo),
-            Pikmin(2, "Pikminidae auribus", R.drawable.yellow_pikmin,  R.string.pikmin_amarillo),
-            Pikmin(3, "Pikminidae caerula", R.drawable.blue_pikmin, R.string.pikmin_azul),
-            Pikmin(4, "Pikminidae venalbius", R.drawable.white_pikmin, R.string.pikmin_blanco),
-            Pikmin(5, "Pikminidae violaceus", R.drawable.purple_pikmin, R.string.pikmin_morado),
-            Pikmin(6, "Pikminidae granitus", R.drawable.rock_pikmin, R.string.pikmin_petreo),
-            Pikmin(7, "Pikminidae volucris", R.drawable.winged_pikmin, R.string.pikmin_alado),
-            Pikmin(8, "Pikminidae glacialis", R.drawable.ice_pikmin, R.string.pikmin_gelido),
-            Pikmin(9, "Pikminidae luminis", R.drawable.glow_pikmin, R.string.pikmin_luminoso)
+            Pikmin(1, "Pikmin rubrus", R.drawable.red_pikmin, R.string.pikmin_rojo),
+            Pikmin(2, "Pikmin auribus", R.drawable.yellow_pikmin,  R.string.pikmin_amarillo),
+            Pikmin(3, "Pikmin caerula", R.drawable.blue_pikmin, R.string.pikmin_azul),
+            Pikmin(4, "Pikmin venalbius", R.drawable.white_pikmin, R.string.pikmin_blanco),
+            Pikmin(5, "Pikmin violaceus", R.drawable.purple_pikmin, R.string.pikmin_morado),
+            Pikmin(6, "Pikmin granitus", R.drawable.rock_pikmin, R.string.pikmin_petreo),
+            Pikmin(7, "Pikmin volucris", R.drawable.winged_pikmin, R.string.pikmin_alado),
+            Pikmin(8, "Pikmin glacialis", R.drawable.ice_pikmin, R.string.pikmin_gelido),
+            Pikmin(9, "Pikmin luminis", R.drawable.glow_pikmin, R.string.pikmin_luminoso)
         )
 
         // 🔹 Conectar Adapter con RecyclerView
