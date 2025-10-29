@@ -91,10 +91,13 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId){
             R.id.opcion_acerca -> {
-
-
+                val fragmentManager = supportFragmentManager
+                val dialogo = DialogoAcercaDe()
+                dialogo.show(fragmentManager,"AcercaDeDialog")
+                true
             }
 
+            R.id.opcion_ajustes ->
 
         }
     }
