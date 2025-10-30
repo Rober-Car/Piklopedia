@@ -1,39 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
- >
+    tools:context=".AjustesActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/spiner_texto_ajustes"
-        />
+        android:text="@string/titulo_configuracion"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
 
+    <!-- Switch para idioma: (unchecked = Español, checked = Inglés) -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/spiner_texto_idiomas" />
+        android:text="@string/label_idioma" />
 
-    <Spinner
-        android:id="@+id/spinnerIdiomas"
-        android:layout_width="match_parent"
+    <Switch
+        android:id="@+id/switchIdioma"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:entries="opciones_idiomas"/>
+        android:textOff="@string/idioma_es"
+        android:textOn="@string/idioma_en"
+        android:contentDescription="@string/desc_switch_idioma"
+        android:layout_marginBottom="24dp"/>
 
+    <!-- Switch para tema: (unchecked = Claro, checked = Oscuro) -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tema:" />
+        android:text="@string/label_tema" />
 
-    <Spinner
-        android:id="@+id/spinnerTema"
-        android:layout_width="match_parent"
+    <Switch
+        android:id="@+id/switchTema"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:entries="@array/opciones_temas" />
-
+        android:textOff="@string/tema_claro"
+        android:textOn="@string/tema_oscuro"
+        android:contentDescription="@string/desc_switch_tema" />
 
 </LinearLayout>
