@@ -13,7 +13,9 @@
         app:title="@string/titulo_detalle"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/NegritaGrandeFondoVerde"
+        />
 
     <ScrollView
         android:id="@+id/scroll_detalle"
@@ -35,17 +37,19 @@
 
             <ImageView
                 android:id="@+id/imagen_detalle"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:layout_gravity="center_horizontal"
-                tools:srcCompat="@drawable/ic_launcher_foreground" />
+                tools:srcCompat="@drawable/ic_launcher_foreground"
+                style="@style/fondoBlanco"
+                />
 
             <TextView
                 android:id="@+id/nombre_pikmin_detalle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/Titulos"
+                style="@style/NegritaGrandeFondoVerde"
                  />
 
             <TextView
@@ -55,7 +59,7 @@
                 android:layout_marginTop="8dp"
                 android:textAppearance="?attr/textAppearanceBody1"
                 android:gravity="center"
-                style="@style/DescripcionPantallaDetalles"
+                style="@style/letraMedianaLineasSeparadas"
                 />
 
         </LinearLayout>

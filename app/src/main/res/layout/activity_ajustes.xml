@@ -5,44 +5,83 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@color/crema_claro"
     tools:context=".AjustesActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/titulo_configuracion"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="bold"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="28dp"
+        style="@style/NegritaGrandeFondoVerde"
+        />
 
-    <!-- Switch para idioma: (unchecked = Español, checked = Inglés) -->
+    <!-- Idioma -->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/label_idioma" />
+        android:text="@string/label_idioma"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
 
-    <Switch
-        android:id="@+id/switchIdioma"
-        android:layout_width="wrap_content"
+    <RadioGroup
+        android:id="@+id/radioGroupIdioma"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textOff="@string/idioma_es"
-        android:textOn="@string/idioma_en"
-        android:contentDescription="@string/desc_switch_idioma"
-        android:layout_marginBottom="24dp"/>
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        style="@style/fondoBlanco"
+        >
 
-    <!-- Switch para tema: (unchecked = Claro, checked = Oscuro) -->
+        <RadioButton
+            android:id="@+id/radioIdiomaEs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idioma_es" />
+
+        <RadioButton
+            android:id="@+id/radioIdiomaEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idioma_en"
+            android:layout_marginStart="24dp" />
+    </RadioGroup>
+
+    <!-- Tema -->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/label_tema" />
+        android:text="@string/label_tema"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
 
-    <Switch
-        android:id="@+id/switchTema"
-        android:layout_width="wrap_content"
+    <RadioGroup
+        android:id="@+id/radioGroupTema"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textOff="@string/tema_claro"
-        android:textOn="@string/tema_oscuro"
-        android:contentDescription="@string/desc_switch_tema" />
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        style="@style/fondoBlanco">
+
+        <RadioButton
+            android:id="@+id/radioTemaClaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tema_claro" />
+
+        <RadioButton
+            android:id="@+id/radioTemaOscuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tema_oscuro"
+            android:layout_marginStart="24dp" />
+    </RadioGroup>
 
 </LinearLayout>
