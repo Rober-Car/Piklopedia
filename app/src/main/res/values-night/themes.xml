@@ -11,7 +11,7 @@
     </style>
 
     <style name="fondoBlanco">
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@color/gris_oscuro</item>
     </style>
 
     <style name="NegritaGrandeFondoVerde">
@@ -24,10 +24,9 @@
         <item name="android:textColor">@color/texto_oscuro</item>
     </style>
 
-    <style name="letraMedianaLineasSeparadas">
+    <style name="letraMediana">
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
-        <item name="android:lineSpacingExtra">6sp</item>
         <item name="android:textColor">@color/texto_oscuro</item>
     </style>
 
@@ -36,5 +35,13 @@
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginBottom">20dp</item>
         <item name="android:textColor">@color/texto_oscuro</item>
+    </style>
+
+    <style name="negritaLetraMediana">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/texto_oscuro</item>
+
     </style>
 </resources>

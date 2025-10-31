@@ -27,9 +27,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/label_idioma"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        style="@style/negritaLetraMediana"
+        />
 
     <RadioGroup
         android:id="@+id/radioGroupIdioma"
@@ -60,8 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/label_tema"
-        android:textSize="18sp"
-        android:textStyle="bold"
+        style="@style/negritaLetraMediana"
         android:layout_marginBottom="8dp" />
 
     <RadioGroup
