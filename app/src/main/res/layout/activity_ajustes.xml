@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,6 +10,17 @@
     android:gravity="center_horizontal"
     android:background="@color/crema_claro"
     tools:context=".AjustesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mi_toolbar_ajustes"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/titulo_configuracion"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/NegritaGrandeFondoVerde"
+        />
 
     <TextView
         android:layout_width="match_parent"

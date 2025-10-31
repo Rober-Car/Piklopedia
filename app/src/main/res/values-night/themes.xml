@@ -1,7 +1,40 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Piklopedia" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+<resources>
+    <style name="Theme.TemaPikmin" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/crema_claro</item>
+    </style>
+
+    <style name="TextoFondoRedondeado">
+        <item name="android:background">@drawable/fondo_texto_pikmin</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/texto_oscuro</item>
+    </style>
+
+    <style name="fondoBlanco">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="NegritaGrandeFondoVerde">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">@color/verde_hierba</item>
+        <item name="android:textColor">@color/texto_oscuro</item>
+    </style>
+
+    <style name="letraMedianaLineasSeparadas">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/texto_oscuro</item>
+    </style>
+
+    <style name="letraNegritaMedianaConMargen">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textColor">@color/texto_oscuro</item>
     </style>
 </resources>

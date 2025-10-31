@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="verde_hierba">#81C784</color>
     <color name="crema_claro">#FFEFC0</color>
+    <color name="gris_oscuro">#2C2C2C</color>
+    <color name="texto_oscuro">#212121</color>
+
+
 </resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Piklopedia</string>
+
+    <string name="titulo_toolbar">Piklopedia</string>
+
+    <string name="titulo_detalle">Pikmin Details</string>
+    <string name="pikmin_descripcion">description.......</string>
+
+    <string name="opcion_ajustes">Settings</string>
+    <string name="opcion_acerca">About...</string>
+    <string name="texto_dialogo">App developed by %1$s. Version 1.0.</string>
+    <string name="titulo_configuracion">Configuration</string>
+
+    <string name="label_idioma">Select language</string>
+    <string name="idioma_es">Spanish</string>
+    <string name="idioma_en">English</string>
+
+    <string name="label_tema">Select theme</string>
+    <string name="tema_claro">Light</string>
+    <string name="tema_oscuro">Dark</string>
+
+    <string name="pikmin_rojo">Pikmin rubrus</string>
+    <string name="pikmin_amarillo">Pikmin auribus</string>
+    <string name="pikmin_azul">Pikmin caerula</string>
+    <string name="pikmin_blanco">Pikmin venalbius</string>
+    <string name="pikmin_morado">Pikmin violaceus</string>
+    <string name="pikmin_petreo">Pikmin granitus</string>
+    <string name="pikmin_alado">Pikmin volucris</string>
+    <string name="pikmin_gelido">Pikmin glacialis</string>
+    <string name="pikmin_luminoso">Pikmin luminis</string>
+
+    <string name="pikmin_rojo_descripcion">Fire-resistant, strong offensive power, and high adaptation to hot environments; useful in combat and for enduring high temperatures.</string>
+    <string name="pikmin_amarillo_descripcion">Conducts electricity and resists electric exposure; fast diggers and capable of reaching great height when thrown.</string>
+    <string name="pikmin_azul_descripcion">Has gills that allow breathing and functioning underwater; excellent swimmer and effective in aquatic environments.</string>
+    <string name="pikmin_blanco_descripcion">Small and very fast, with natural poison and toxin resistance; ideal for speed tasks and poison damage.</string>
+    <string name="pikmin_morado_descripcion">Very heavy and extremely strong, with high carrying capacity; slow but capable of causing great physical damage and moving heavy objects.</string>
+    <string name="pikmin_petreo_descripcion">Rocky body and highly resistant; ideal for breaking obstacles and absorbing physical damage.</string>
+    <string name="pikmin_alado_descripcion">Flight capability and great agility in the air; superior mobility though with lower attack power.</string>
+    <string name="pikmin_gelido_descripcion">Generates and maintains ice, immune to cold and able to freeze areas; vulnerable to fire.</string>
+    <string name="pikmin_luminoso_descripcion">Active in nocturnal and underground environments, with unique movement and grouping abilities that enable light formations and collective teleportation.</string>
+</resources>

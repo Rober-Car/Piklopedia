@@ -56,15 +56,15 @@ class MainActivity : AppCompatActivity() {
          * */
 
         val pikminLista = listOf(
-            Pikmin(1, "Pikmin\nrubrus", R.drawable.red_pikmin, R.string.pikmin_rojo),
-            Pikmin(2, "Pikmin\nauribus", R.drawable.yellow_pikmin,  R.string.pikmin_amarillo),
-            Pikmin(3, "Pikmin\ncaerula", R.drawable.blue_pikmin, R.string.pikmin_azul),
-            Pikmin(4, "Pikmin\nvenalbius", R.drawable.white_pikmin, R.string.pikmin_blanco),
-            Pikmin(5, "Pikmin\nviolaceus", R.drawable.purple_pikmin, R.string.pikmin_morado),
-            Pikmin(6, "Pikmin\ngranitus", R.drawable.rock_pikmin, R.string.pikmin_petreo),
-            Pikmin(7, "Pikmin\nvolucris", R.drawable.winged_pikmin, R.string.pikmin_alado),
-            Pikmin(8, "Pikmin\nglacialis", R.drawable.ice_pikmin, R.string.pikmin_gelido),
-            Pikmin(9, "Pikmin\nluminis", R.drawable.glow_pikmin, R.string.pikmin_luminoso)
+            Pikmin(1, getString(R.string.pikmin_rojo), R.drawable.red_pikmin, R.string.pikmin_rojo_descripcion),
+            Pikmin(2, getString(R.string.pikmin_amarillo), R.drawable.yellow_pikmin, R.string.pikmin_amarillo_descripcion),
+            Pikmin(3, getString(R.string.pikmin_azul), R.drawable.blue_pikmin, R.string.pikmin_azul_descripcion),
+            Pikmin(4, getString(R.string.pikmin_blanco), R.drawable.white_pikmin, R.string.pikmin_blanco_descripcion),
+            Pikmin(5, getString(R.string.pikmin_morado), R.drawable.purple_pikmin, R.string.pikmin_morado_descripcion),
+            Pikmin(6, getString(R.string.pikmin_petreo), R.drawable.rock_pikmin, R.string.pikmin_petreo_descripcion),
+            Pikmin(7, getString(R.string.pikmin_alado), R.drawable.winged_pikmin, R.string.pikmin_alado_descripcion),
+            Pikmin(8, getString(R.string.pikmin_gelido), R.drawable.ice_pikmin, R.string.pikmin_gelido_descripcion),
+            Pikmin(9, getString(R.string.pikmin_luminoso), R.drawable.glow_pikmin, R.string.pikmin_luminoso_descripcion)
         )
 
         // 🔹 Conectar Adapter con RecyclerView
