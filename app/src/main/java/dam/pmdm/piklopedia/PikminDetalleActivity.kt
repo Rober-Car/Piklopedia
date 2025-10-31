@@ -47,15 +47,9 @@ class PikminDetalleActivity : AppCompatActivity() {
         imagenView.contentDescription = nombre
     }
 
-    // Manejar clic en la flecha de retroceso de la Toolbar
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            android.R.id.home -> {
-                finish() // cierra la actividad y vuelve a la anterior
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }
 

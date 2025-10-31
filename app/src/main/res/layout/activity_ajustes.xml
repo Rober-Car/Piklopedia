@@ -13,22 +13,12 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/mi_toolbar_ajustes"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:title="@string/titulo_configuracion"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style="@style/NegritaGrandeFondoVerde"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/titulo_configuracion"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="28dp"
         style="@style/NegritaGrandeFondoVerde"
         />
 

@@ -59,4 +59,9 @@ class AjustesActivity : AppCompatActivity() {
             insets
         }
     }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
 }
